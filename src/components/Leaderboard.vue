@@ -1,9 +1,9 @@
 <template name="leaderboard">
   <div class="page">
-    <div class="page__header">
+    <div class="page-title">
       <h1>Leaderboard</h1>
     </div>
-    <div class="page__content grey-gradient-bg">
+    <div class="page-content page__content grey-gradient-bg">
       <div class="page__content-container">
         <div class="leaderboard">
          <transition-group tag="div" name="list" class="leaderboard__rows">
@@ -40,7 +40,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 .leaderboard {
   display: flex;
   margin: 0 auto;
